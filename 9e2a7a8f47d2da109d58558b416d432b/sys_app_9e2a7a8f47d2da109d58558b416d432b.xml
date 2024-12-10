@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>AES</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>b62af64f47d2da109d58558b416d430b</logo>
+        <menu/>
+        <name>Asset Flows For Versioning Demo</name>
+        <package_json/>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_snc_asset_flow_0</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_snc_asset_flow_0</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>omar.martinez@snc</sys_created_by>
+        <sys_created_on>2024-12-10 18:15:14</sys_created_on>
+        <sys_id>9e2a7a8f47d2da109d58558b416d432b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>omar.martinez@snc</sys_updated_by>
+        <sys_updated_on>2024-12-10 18:15:16</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=9e2a7a8f47d2da109d58558b416d432b"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>LIlogo.png</file_name>
+        <hash>a34f0968874d603623dc9259978f377f670350080cd5ddd4be6ef90d65eb0fa6</hash>
+        <image_height>66</image_height>
+        <image_width>74</image_width>
+        <size_bytes>2475</size_bytes>
+        <size_compressed>2493</size_compressed>
+        <state>available</state>
+        <sys_created_by>omar.martinez@snc</sys_created_by>
+        <sys_created_on>2024-12-10 18:15:15</sys_created_on>
+        <sys_id>b62af64f47d2da109d58558b416d430b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-12-10 18:15:16</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>9e2a7a8f47d2da109d58558b416d432b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="LIlogo.png" sys_id="b62af64f47d2da109d58558b416d430b">b62af64f47d2da109d58558b416d430b</sys_attachment>
+        <sys_created_by>omar.martinez@snc</sys_created_by>
+        <sys_created_on>2024-12-10 18:15:15</sys_created_on>
+        <sys_id>f62af64f47d2da109d58558b416d430b</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>PZV5ONTbH8e/Y5chkQyufZtkHRlLxjaWECZbxhamsVz7MtfSLTNzhUiDGWQfSWYQWYsiIWGyDUmuLdQN1zbZUvTT797nnud5n/frnM/n+fzxeT7nObdR9lb8J8RPAADAb33R3PHYbY5lJsh1vFOFi64CAMglCIlEWSORMqiocP+gECwAQLNwIy802H0h3JsbkUxqGW95mUTOQZbT7akqJC/SiUPHa841Pbi99YKpOdO4E+pPvgeWC8M22gr+QWdvfMA3uBrv1ZobR94rceiIZ31q5Q68jBviFzGpv1ZI73GOiFeU3G7vJP22jTIs005/nd2vD+sI/kKfRWbthF3scNFzR7w4kUGiaOyO5fS/e//i0K5SvrAR8vZk2x93CuFUcCb5AjxvVnGv4PzpryiDjQNzg8UDVnWArIjyXDZ7DTWgn7QU8VB2WPdpYEjjATgqIbG2Sc+hOT1MeiFVJi1I4bOt8PcxCfpeGAFzUmkiywoEJ6Ze7vKVsSox5QV385B17jAz+iR/zBbnSZoHrWG7GvMq4KCUI+XHH7CH4iM3uKadn4atGEu4VFU1wx+2rsfgWzCys7nAVR4agmdrnefyBU73UvzqivL4jF9vzHMm47jPIVg3a387O0DlmHkADpA4wHlMoGMZgST+Y0sQFGD/P7MBQEoQwPHvvT3wz8r89/yPs1HZ/suwobL/x2Y/U6/lKZOOjTfiIjoaAM4o/hTI2lFhEwC4k6zNTZ3jQGtewSHOFqeN1PrKTd472jCiX3N99HVsIbKpGCieks5K6TXHmLVkQxVOPIBobmXNKArx95yn3YbIrylBxjmCeXkLAu8RL2vhOdncZDQL78uQGjjTiGaIvbDwzuS1oZaA3zbatI0h6+3ac0VfP62+KW4N8I+eusAGTca9HFy4x+EmfGQ4nVTPmwxKJ4gQAg4XISb2DcS2F36Rb+GgCJsW8x8NmZc0wTLs8m5llca9rVUhnnjGpq4S3MwRq/qMeag+bPGjR+Uc38rJ93J110StHrbM+JigUTOdcHRDJkiephoSU+wCJzL7w8747bk+ihZYoikpWu/tP6fPCpmz7MQZCDCVwp9CgEgLCrkrdtZeJOuRtgTqjaPOXIrgYx8g/pry2yO4w3Y82igX5XWYnSjEDWFYNhCeQOuJechTjdIRnfvKkaiibsYVM+mJDWH/M79qk3sTmUZLGb6vSgwV5hltOYRlw47MhcjzGQ5Lt1yPQs9VP/oeX3Jz5Jy3X/TVC+xBws7qAmUTMm3wTZajNPdT/oTqOt9pYq4fFH8z7kdzxfBX5cceCppPHLtMpjhwJ6U31DpVcrcc4fceVw07Dy2Vuw1z2gQ6uppW2KGcni/GgeCGuIiEjsiO0RBBnacvbfvwDVRaQPxhWd1EbLEcqbLdoWulkGMcDOVLS8iNfdqM9swef9tKeDcZd56ZsMj8rmHxMzRVstFT0hfEEXoL/q1cW+TIOl5AVSP1y2h6RM6J8XmodibctLnsC8M48NPKSO+UUllIeFdS+KMZQUPz1LzHJuR5459FDiQH6hcap0L5B+O2ItfORHoaxJJJVzh1x93NDg6qS+Urs4fDogS1qKrQ+6yFrufCU5AjFzbDw2ua2+XAvuvfpyYyJ/U9X4JYBrPT6ru8q2RGTdpHlz85Ow82J7huv1N6kAfCkgbLWbrxvKE3HvhZBKZcLB49RNz4+/38WoieBP6VVMidPj76uVkKRYF9AHF6R9Xh7ZBx+ZUP4v8MT/syhTPHW9tuOb8Lf8r5YZNz8mQQR44sf85Zf5VvyGV3eN/p+47YykZJeo9T6l09vHfgu1CHJmFWTXv10qXz4rgv/qewpsty2+UF2KNn+p0yfUjR3JKU5g92C6nA5FkBC/dsvIdTY9/VXsCyC/WZFOnQne6ykRzLh7eFsgeDnkTHZebFpywMfj1CTzNA/qwoo5ro++q1pH5yA3+p7kA5TGWUH9pEP+LpVV4S84jzuvb2ALpGLHizsZQrYQuySVvArI8cvLwfrgs9h/ls2Z0du5l+xTn8s0jH+6C2ETKJTwbYcNEoCf6aqH+XsMVSbiOpj+7C0iS18ZX7YCOhxZ1mj1sUoNpMoitF0x63P9eORDMkEopzyMH3o+Yk3/yB7viKxe2AZ6NlFVVumH7EFGnh1XTCuaU6WWloAiJGacBqxxONaiu4LZ4nXvfM/Dpaq9Gz0JjuIXWvaznBx+W60qZWi/GkqA5hJcjtJq9EtpDvWT6bd7b6OmHqBkJzhuM0OIBrw+EYbOR6We5uIDu2e31KN02EgPvUyU1QtGWMSs2YHtc/YtEj62LfpMUI5/EkQuJGbo0gyopeJ3sHwKgMGNb08p6C/S1a5AwTqb8T7fGd+IPXe2AHXaEKXSnpoQvp1HokQCtvhqVXsrZ+5xHP+Wt0kfjoeQh1VWNODUHBWqnMtkcU89RgwkcwLkW5wLM9qZZYk9KMFmKzj/6sxPV8b0iRF3ogMneiHgGWzkry/vzM921024Z6XXPp6FaRIshKEGuKRtwufLjozKGn17b6TmY3TdttMrtqrztD7oj4l32qWl9Y7Y+yDwoPq6s90JhQH8nB5A9MDa978zus35OJRISv7aSzaXxfuYrmnxEdot9CrTo5h+sENoS2bo3ni75WNoKc4D7pZ7SC6vKTwNAjM6g0sbWkPcvAG4eg0WV/oTyz85Y1JYOREZfkgvOs01GoG+g867adEZ4qjybFoaVfFkZVHaw0lO1LNF+pjyoMM5L6KcKnu2Qst+jV0QRLVLGYbJuRaiEhaq7sUMtNSCxFc4ihL+kH7udJKxgVeL6Y5dRgxyQ8afKmUL6BcYOBOZwVwXetMlZzcbTgnnO7VyL+rPro4SASo5Z9/Nir5LheS4L1UtJQHhgOi8HA3vllse07VJgl0JRcIJWWO1xjxcAmHAghaOg5z3Xlzm3Uerg8Rhbmk0BTzSGob5ySp9WIUPI/YoPGVulw9RCYZDYMQSnZjUJU1T76xRJVG56A4FphoXSIzDHvWiudOZbnnHk+lopOGajZjWpv9q+Y3rGjoLlWElIcjZp2Ug19pacOAl9Vn0U06TQW9LsFew9kcF0U0yTKVYzhxUzF+DNhPhwWNpUgpzPOWhJd0zGGGUEGsTCqKu37XaSLE06o4MIyzPUVxkcvvdi9RhXKHXiEPDm8A/troCeZAGH/cqjlpaBGs3ipv984tr84ZjQlXQrnJ+eD93/HrCGDRF2HWnBZTdSiX8Nrrmtr5rC/yY8tjU2KHutBd+PH1ksn2qWeiuLmkxJBr12+9z5JLF37+VlbW9ib15r5EP8HCqfiTqsJAAA=</data>
+        <length>3312</length>
+        <position>1</position>
+        <sys_attachment display_value="LIlogo.png" sys_id="b62af64f47d2da109d58558b416d430b">b62af64f47d2da109d58558b416d430b</sys_attachment>
+        <sys_created_by>omar.martinez@snc</sys_created_by>
+        <sys_created_on>2024-12-10 18:15:15</sys_created_on>
+        <sys_id>7a2af64f47d2da109d58558b416d430b</sys_id>
+    </sys_attachment_doc>
+</record_update>
