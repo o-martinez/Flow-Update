@@ -4,7 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=diagramming</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -16,7 +16,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>linked_asset_flow</internal_name>
-        <label_cache>[]</label_cache>
+        <label_cache>[{"name":"af817aab-cadb-48d2-8034-2f1d801cf978.Records","label":"1 - Look Up Records➛Asset Records","reference":"alm_asset","reference_display":"Asset Records","type":"records","base_type":"records","usedInstances":{"95b03a24-1d44-4727-a7a2-88b6b3e1ba0b":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Ticket Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"ticket","column_name":"short_description","usedInstances":{"f74c54de-5067-4c37-973f-327a203a3b62":["summary"]}},{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger - Record Created or Updated➛Ticket Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"9c89405e-83be-476c-937a-d8f81c641792":["approval_conditions"]}},{"name":"{{static.92ba785407921010e2828e46a9d300f5}}","label":"Alumni","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9c89405e-83be-476c-937a-d8f81c641792":["approval_conditions"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Ticket Record","reference":"ticket","reference_display":"Ticket","type":"reference","base_type":"reference","usedInstances":{"9c89405e-83be-476c-937a-d8f81c641792":["record"],"be00b992-e64d-4bbd-9931-06338a0f5577":["parent"]},"attributes":{}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <master_snapshot_digest/>
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb4afe8f47d2da109d58558b416d430d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Linked Asset Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Asset Flows For Versioning Demo" source="x_snc_asset_flow_0">9e2a7a8f47d2da109d58558b416d432b</sys_package>
@@ -46,7 +46,7 @@
         <sys_scope display_value="Asset Flows For Versioning Demo">9e2a7a8f47d2da109d58558b416d432b</sys_scope>
         <sys_update_name>sys_hub_flow_fb4afe8f47d2da109d58558b416d430d</sys_update_name>
         <sys_updated_by>omar.martinez@snc</sys_updated_by>
-        <sys_updated_on>2024-12-10 18:19:39</sys_updated_on>
+        <sys_updated_on>2024-12-11 00:12:09</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -354,19 +354,41 @@
         <sys_created_by>omar.martinez@snc</sys_created_by>
         <sys_created_on>2024-12-10 18:17:17</sys_created_on>
         <sys_id>9caabacf47d2da109d58558b416d439e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>omar.martinez@snc</sys_updated_by>
-        <sys_updated_on>2024-12-10 18:19:39</sys_updated_on>
+        <sys_updated_on>2024-12-11 00:11:25</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9VZW3PiNhT+Kx4/tTO04wvgkD6lhHQzk01mgd0+ZFKPLMugWSOztmyW7uS/98gXML4FsNNk85CAbuc7R9/5jhQ9/pBdZBFXvpTnyHKJ3JMp48RnyJ1v1wSauWg2GVqJvhViNuKev5UvuR+Snuz5NvHlS7UnR8gNyWwb3NowCYbGM9LpctotvlP8lXBosGmwdtH2S9o+z9rxkrq2T5h8+fjUk9fIh3W4sPGj0EWFIeyoRB1dKFjX4EdRtIu+ag11S9VsHRGkwIJF/wrAeIWbe6/Id06YTcCUg9yAVETAJ8h+YO42N+J7QP+FNS8U0esQQIxJEpTdVzN1P2nGS49i8rDm1GNJS4Iu6fTccMXuE9QicMRBocuzwEFLGMB6ZC2AMr7D4cyW3maaGbyhLPYp7XQ9jNzdN8S5T62Qk0CE2aEuBNxMIhJ4oR+jn07GD9Nr8++r+fjDZGpOJ7P59HY8n1zLz7Ff5rdQrJggTLGYiTvPu92+ocQV28bClQVoenKAfbrmV5jTiKRwnnt7To49ZtM4KiVe4qwrOORl6lK2hYpSS02cWzyj5z+TT2VuJo2nEdNQDNtW64iJrRwx805WQOMV/ua9a6Jo2lLP0b6ivBFLk+w5m6Qrzybu9X45GToXC6AtZeuQixhlcTG9NfFFPGCe/OXqbvzh6v6vyeyP9O/N9OFj9nn+APM2iPHA5J6JbNvMRV2YAF9eYnsSk+cXqe2HDCaYu90rEzwO9y7udzQANx8hPbOYxktCv3OXLjkNmeTBNsMvCYc+hJRLmcw5tyu0SHfCmRGXYJ6jjPM5yH/7SIOAskUO9c5oHIOSzZ05oJ6UuZTYDloafzozu8vxjQpxK2T5ySmu4r6m6NZQMUSCq/DRURVDGSDH1hXFusileBlMLUpe2P0OU/20RA9itrlHcKsY2BSykqf7UTyJDkmWuS44kOrJuBtoakfQNAGtoIv6ScK4I2PSfH3IySbXOq76yI4QzLCP1bkjJc5xvQ1o8hnyZiH8deF7IbOLeiPWlCiT9iOkX9L4/dqh1DmeT5oBHI54I5HbRzjjKGLbDuRN01ViDPtDBVRNF4I2GI0sjDTHMYYGUdWCvO1hVGJ7x7L2Ap2iKj7WSVwlM6IqQp0gbi0AloTuZIDtJS6lY6XAJX0/h5RtloSZANU3XSFWJUVbuNQmWd/Z6VyyEu0TuG1KY2tkDwaGgQ24kEBKO31iIbWvDdDIGOrEKaR0CUoTTF4RhFe8pgTbIDZfk+6fk673dbF+TV4GhHNRUE6vswzOn/EclBjJ1TqxGVKsGp4v3Xvst9v9OGlGoITFN9SuCu4xKMTGSq8Lw/L4slTxwfSf0H5gWpwUa6LylreeAh+iQ7faagjSNDRS9RoNMYZVGrIHUw/znR4QjkyBqDaZqk4KxzI6qkyM2tJ+BkcL5MjX/IZDSVdBUTsPivZ6QdFbH4SyDKy96p0D9ieqUfFxoU2hEjaJ6Tl5db72JOiQwIhEHSn9LyDc3K2txJcEQurCiRcMSsJ6W1nOl4kylB2D/18gyRm6VK6gWUpPSG9aiQq73u0lldg6Htl11ahv1J5o60tSofud1qWTaR9VZVFjcTpt3eKaleUpx8lDHhxZeDr1urr6tPO6sv685HX7ytJ0xa5A8f5rhgA9T7bhjErhMVy4QeAu30BCRr+FxMRLxBbJ+0Zm6AbiTBBeSskQKRnSpda7G7QN5GLRAdKKvEj/RQwNkCEs0a+uLJOI+NuSr6JRCtcgem29bKozWkOdyd79Au4DiMX2IDlxF+88mjWCzBooWFdVvfSUO8g/5R7Sth5hTVHRzi0qSxq/gebMp1vD6YrEErZ7yJRWiOMlCXoS7F/8thArHPUDHo/+Xe7w7oRJeTuqak5t3kR1KVer4Q2pEBWTqEq0K2gdFVIgL9uNt6QG99VO3Ne6cF8/z/1+66qV5Wdl2Uqj122pOrcyPf0HFArKmiglAAA=</trigger_inputs>
+        <trigger_inputs>H4sIAAAAAAAA/9VZ23LbNhD9FQ6f2hm1w4skWu6TK8uNZ5x4Kinpg8flgCAoYUqBCgHSUTP+9y54E8WLrAtdO3lwTNz27OLsWcB4+K76yCG+eqnOkeMTtadSJkjIkD/frAk0C9lsM7SSfSvEXCSCcKNeijAiPTUIXRKql3pPjZEfkdmG37owCYYmM7LpatYN38hf2YhzIqDNpXzto82XrOsqa8ZL6rshYerlw2NPXaMQVhLSyvdKF5WmsKcTfXShYdOAf5pmXPR1Z2g6uuGaiCANFqx6WIEmGhzd+kW+CcJcAqY85HPSEIOQIPee+ZvSiG+c/gtrXmiy1yOAGJM0LMWnnXmfNuNlQDG5XwsasLQlRZd2Bn60Yp9S1DJuxEORL/K4QUvEYT2ylkCZKHB4s2XwNM0N3lCW+JR1+gFGfvGFhAipEwnCZZg96kPA7TQiPIjCBP10Mr6fXtt/Xc3HHyZTezqZzae34/nkWn1O/LK/RnLFFGGGxU7deS42+4YSX25b9pnHm+OQrsUVFjQmGajn3pab44C5NIlNjZ847+K7/MwcyzdS01opikuL5zT9e/JnnaBp43H0tDTLdfU2emKnRM+ykw3QRIO/Ze/2ETVraWdqX9PeiKtpDp1M1VXgEv96u5wKnYsFkJeydSRkjPK42MGahDIeME/9cnU3/nD16Y/J7Lfs/5vp/cf89/k9zHtCTHBbBDZyXbsUdWkCfHmJ82lMnl+kdhgxmGAXu1cneBLuIu53lIObD5CkeUyTJaHfu8uWnEZMCWCb4YeCoxBCKpRc7LzbFVpkO+HNiE+wKFHG+8zLXx8p55QtSqgLo0kMajYLc0A9JXcptc3PNP54YnbX4xtX4lbJ8qNTXMd9QzOdoWbJBNfhV0/XLG2APNfUNOeilOJ1MK0oRWX3O0z14xKdJ2zzD+BWNbAZZK1M94N4Eu+SLHddciDTk3E30PSOoBkSWkUXzaOEsSBj2ny9y8l9rnVc+5EbI5jhHqpzB0qc5wdPoMknyJuD8D+LMIiYW9UbuaZCmbIdofyUxe/nDqXOC0KyH8DuiDcSuW2Ei7M223Qgb4apE2vYH2qgaqYUtMFo5GBkeJ41tIiuV+RtC6MR2zuWtRfoFDfxsU3iGpkRNxHqCHE7A2BN6I4GeL7EZXRsFLi078eQsqclYTZADW1filVN0RY+dUned3I616zE2wQ+N6WxM3IHA8vCFlxIIKW9PnGQ3jcGaGQNTeJVUroGZR9M0RCEV7ym8A1PzLek++e0631dr1+Tl5wIIQvK8XWWwfkzmYNSI6VaJzdDSVQjCJVPAfvldjtOmREoYckNtauCewgKubHK68JwArGsVXww/Tu075iWJ8WWqLzlrafCh3jXrXM1BBkGGulmi4ZYwyYN2YJph/lODwgHpkDcmkxNJ4VDGR03JkZraT+BoxVylGv+nkNJV0HROw+K8XpBMc8+COUZ2HrVOwXsD1SjkuPCOYVK2iR24JXV+TpQoEMBIwr1lOyvgHBzdzaKWBIIqQ8nXjCoSOvnynK5TNShFAz+f4GkZ+hauYJmJTshvWklqux6t5dU4pp45LZVo77VeqJtL0mV7ndal46mfdyURXuL03HrVtdsLE8lTu7y4MDC06nXzdXnPK8b689LXp9fWfZdsRtQvP+aIUHP0204oVIEDFduELjLN5CI0a8RsfESsUX6vpEbuoE4E4SXSjpESYd0qfX+E9pwtVp0gLQyL7I/EUMDZAhL9asryyQm4abmq2xUojWI3rle7qszxp46k7/7cRECiMVmJzlxF+88hjOCzBpo2NR1s/aUOyg/5e7Sth1hS1ExTi0qS5q8gZbMZ1sj6IokElY8ZCorJPCS8J4C+5e8LSQKR0MuktG/qh3enTCpb0dTzWnNm7gt5Vo1fE8qxNUkahLtBlrHlRQoy/beW9Ie9/VO3De6cN88zf3+2VUrz8/GspVFr9tSdWplevwPwTKSYjAlAAA=</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fb4afe8f47d2da109d58558b416d430d^sys_idNOT IN032bfe034716da109d58558b416d4399"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fb4afe8f47d2da109d58558b416d430d^sys_idNOT IN40bb881747121e109d58558b416d434e,4cbb881747121e109d58558b416d4349"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Linked Asset Flow">fb4afe8f47d2da109d58558b416d430d</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>95b03a24-1d44-4727-a7a2-88b6b3e1ba0b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>omar.martinez@snc</sys_created_by>
+        <sys_created_on>2024-12-11 00:11:25</sys_created_on>
+        <sys_id>40bb881747121e109d58558b416d434e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Flows For Versioning Demo">9e2a7a8f47d2da109d58558b416d432b</sys_scope>
+        <sys_updated_by>omar.martinez@snc</sys_updated_by>
+        <sys_updated_on>2024-12-11 00:12:09</sys_updated_on>
+        <ui_id>be00b992-e64d-4bbd-9931-06338a0f5577</ui_id>
+        <values>H4sIAAAAAAAA/9WUUWvbMBSF/0rRs/GcZk7avA1G3tbCNrqHUsy1fJ2IypInyUmz0v++K0tO0pZmIQy6QV50JJ177tUX3z4yUbEZw+kYJuNxno9HWTamX1mPqstRdok8v5jmnCVMQYN00oG9LxyUEklbgex6UfB7dCRUwrYSNjcvdb4UsjKo2Oz2LmEtGDJzaNjs8cWW27RYSChR0vXvvszZlS+cHJ3z2eU3cvsqvUbLQgV/bSofKEsYPjhUFVK9GqTFhDWgKnDabNjMmY4Eg1BdK7nZnlgK5ciQ+bMPVvwi94vMn6uRWuMY9rbLIs4pyHypBcfr1gmtghJyhk0tu0ZdhSb8hLGGTrphwqR0lvyw9ZF9iJio/rbU669DwblQfXdxU2oOcrsC54woO4fWv0cJ5DcE8FOjEiixIfOigbYValG0Rq9Eb0j5mnQhaZHWUq8piBULlQL3zaQ0NUjnpH/u5Rswwht/IRu6/NRPpPjZ+Syht9hFEQZBByw3onWfyG6FMfBTEqE9PwjDpNw9fi1QVkVPq93D9jWwp6OKDfk4PAtOydEJB4O5jxhu2zeDD9zGYmFjx+7oMLtROQbeSZ5l78Rv+IedjO/7oLr3dfkDtHV9CInpdPf2axBuD9bsNa298+nI0qA/zKPFsdmGyz9CuOdRI56l1hJB7bg8/2tcfvxPP6r/1gf07jcNvddu9wcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <attributes/>
         <comment/>
         <compiled_snapshot/>
@@ -377,17 +399,43 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>omar.martinez@snc</sys_created_by>
-        <sys_created_on>2024-12-10 18:19:39</sys_created_on>
-        <sys_id>032bfe034716da109d58558b416d4399</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-12-11 00:11:25</sys_created_on>
+        <sys_id>4cbb881747121e109d58558b416d4349</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Asset Flows For Versioning Demo">9e2a7a8f47d2da109d58558b416d432b</sys_scope>
         <sys_updated_by>omar.martinez@snc</sys_updated_by>
-        <sys_updated_on>2024-12-10 18:19:39</sys_updated_on>
-        <ui_id>b129db51-e6db-4266-8669-6331fe111379</ui_id>
-        <values>H4sIAAAAAAAA/+2X30/bMBDH/xUrz1WX/kopbwyEhjRAgoo9IBQ5ttN4c+LMcSgd4n/fOXGahkKo6KiY1Ddyzt19z/e5S7l9dDh1Dp0hPXC9IBzisTvoD1z3oD+ZBINJ6B6MJ26PUKfjJDhm8KZiRCrzfI9FbgzwJ+VZKvDipraQiAuqWOIc3t51nBQrcNZMOYePz470ImW+wAET4HgiSR6zRKOzE4ixqbDKe4rVjGl0VQl8Ltikgmdqk/jcGOHIyHI7DnvQLKEMkoZYZKzjxDihWEu1WFoUw/QyEbUh4omGkEdZJgnHmmVIRwyxGHOB5lxHCKMyfdcx8R4y/gckDPomVMjgEohRxBPCKShyVsy+vVM4PquPSSQ5YZep5jIpL1rjQFR3LkUeJxdl1aYrLMS50CtdyTOIy1JTptGtVQ41hNeRnF9VeU95UlyILVBIgsXyCWuteJBDnUUjBcOqjucXkkxMyMQEK+44xmnKk5mfKnnPi8AgM+7OBDx0QyHn4J/xWdLFxNTUhQvH3VOwnxTmG6y4KfAcwoDzU3FB/u/caCpLbCY37/pF3+HVjCie6iMIfM9sCU8dy3tv0oYVHdb4rMT8EOanJj66KONvqq3h/IpWi3vDZmnvbUX7FBDX5ayVcCNtZSwJP3CbhL9C9j8n2gp9N9Ifgy30NfNLGm1tRfI3cX4LYtfzgsALRuNBDcqEhHQchB4ek0ENxhx2k4qx+uUXu2mF5N46ynaE34kzOH85LcrrbKyycoZNJ3LK0I9KblsFlu9ASthDSQ13fyu4SxKRlgh6JxawwJeZjbFe7zrCGvEMZdCuLppKxK34FY8OWsgcxXmm4TUNJ42xaXwThjuZGNtaaz15se//xUhtOzqj9h2La/Bw5Gv5Mav/Gu4pmVVzsoGk5ZDJdX12HLIqpp2GQfs0lD8B1oZhZZG7+1XeWOWUCR7zornlxGyLIm3tO3MbrSZkFyhuIKlyPD5e1/cKisP3LeY9i7tjsdf63xbzGr0OdgPjBpoqx6/PaAzacBztcfzsOI7aW08azc7y4Ccjeief6rd1LR2Xql5S+gqa3v6j/Zl+LOLWdof95s6RdPExDH6bnn+vCNxA0nIploLWFFr2Ih2LmrzxlkvRG40G3p691a2YzmmfKpmmtratNuPdX2TdoTSxFQAA</values>
+        <sys_updated_on>2024-12-11 00:12:09</sys_updated_on>
+        <ui_id>af817aab-cadb-48d2-8034-2f1d801cf978</ui_id>
+        <values>H4sIAAAAAAAA/9VXS0/jMBD+K1XOUZWQUlhuCIS0B0ACxIVFlpM4rbWOnbWdloL47zuO7fSVQul2d+FSyfP8ZvzNxH14CWgenATHxSCKcHx4fBRFSRJFw2GS4ThNk2GWRukgDcKA45KApcYpI3CcYFabM2YlwkoRDbKcqorh2b1TnTpxNqYsl4QHJw+PYVBhCZE0kcHJy4pKzyqCGE4JA+87k6h3ZbKGW4Nccl4HbRL4I+I2tJC5wRKFAXnShOcEUhWYKRIGJeY51kLOWokkOL/mbC4YU64hYmCMnxR9hvDHkbErCJSVEatrj8i1yIqzsaAZua40FdxKLFCrFKwu+ZUtwDSXFLhm2jcXJLWCeKQymA0Ih6i4HYvpjU94QXlTnlMykWHWnrDWkqa1JsrcBWGkhECoxFVF+QhVUkxo4wxYyv6IwaFfMDGFpIqOeB9nBngfWoT7FyA/b8T3WFJTxSWEAWcARBncNrJNV6KWTVcmKGO1ahQSc2VjBa9Nr9Cv2qC0Vbv6kG0RGKhM0kqfgsOEuFJew614fBjNKZEJnlOTUy2QmXKlMWMIfnWtftQQJD9aJ/Yms92IfraIZNsqOp27SnOUX5I5ysd7ozzA/U+k17L+fJx/j8W24HeonB29SYLD+X0rITWynVvg8jptd2boBSUsX1rFW4DzzteGbL10tgmvI2hhcqzs5IMvv5M/JT0BUI5svylnlDefRAC6H95Gby+vbys8aK5/ztpGhlW2zl7c06L3vPuWbe7V83cLkN7xFhD17izKDuB+v/rwjrrJ3qibHHyMukCch5cWfdu1jgb7l4+5Om//bOzxqj2wa8Ehfn1sqX+2W874ozkPTM6V2Uw+NJyLzLKa8w0E2/O7asOwhX9zusfg6vIhO6xoSvMR0fPs3ioXeorZzy69Y1c7Q015f/xGG7w5e8N4PmcwA0gSBVe1+EiL4bGxvh7i0Ip32w7fuSajpnnbQvSel/ipd9Ni7ATuVgRtczhOD/b4/voXnzff+M7p8f3/En9KdqXw42+c9U2QMA8AAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fb4afe8f47d2da109d58558b416d430d"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fb4afe8f47d2da109d58558b416d430d"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fb4afe8f47d2da109d58558b416d430d^sys_idNOT IN44bb881747121e109d58558b416d434c"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">80bb881747121e109d58558b416d434b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Linked Asset Flow">fb4afe8f47d2da109d58558b416d430d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>omar.martinez@snc</sys_created_by>
+        <sys_created_on>2024-12-11 00:11:25</sys_created_on>
+        <sys_id>44bb881747121e109d58558b416d434c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Asset Flows For Versioning Demo">9e2a7a8f47d2da109d58558b416d432b</sys_scope>
+        <sys_updated_by>omar.martinez@snc</sys_updated_by>
+        <sys_updated_on>2024-12-11 00:12:09</sys_updated_on>
+        <ui_id>95b03a24-1d44-4727-a7a2-88b6b3e1ba0b</ui_id>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj+C1MmtwFCgh7VAV/QyFAYtUYkwWVIlOaln+L+Pip1s6HEnm4/k43siR2b76PoYXu19COpg2P7n+4opkzD6H5mBDtmeqYhdYCt2At2neBxB1sUdQLvmINr1phblus6rzbqUhajzgsvdXZ29ILdehGmiVqGC0zC8/T8DPyotPC4iHXjSFtGz/fglFQeHjYYWNQ1aGKhfCQqLnZC7It/xqtxWZZ6X9aZot1VblKICFFuqu3Y+Lqa/vEFip9DfeOmTVJT5iuFnRCOQBknQAVesAyMgWj+wffQ9AR5BPBs93CqOykSiY6n2M6jfxF3keSqUSI44zslb2CwPOcP8aBXHZxeVNTMSodVLD7e678zTLD+tACX0Ol5XQEgfiA9d0pxULJLkj6M9v1wHPihz8bckteWgbxHE6FXbRwxpDaixI6KmA+eUOTTO25O6NJOWLjtoCjKp7ZmGpnPLgCfhGT0RZA+Ef7vAb+BVcvGdaKh5urhvPvo0d/axKG5m01QQuFcu3hPdCRdx03u615kpzIchkKtAA18T9ni98pQYaMmK/wudrf+VpP7Fpj/GMcMULwMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=fb4afe8f47d2da109d58558b416d430d"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=fb4afe8f47d2da109d58558b416d430d"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fb4afe8f47d2da109d58558b416d430d^sys_idNOT IN18aabacf47d2da109d58558b416d438d,58aabacf47d2da109d58558b416d4386,94aabacf47d2da109d58558b416d438a"/>
